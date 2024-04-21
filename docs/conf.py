@@ -70,7 +70,9 @@ latex_documents = [
     )
 ]
 
-
+def setup(app):
+    app.add_css_file("css/stylesheet.css")
+    app.add_js_file("webcode/summaryOpen.js")
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
