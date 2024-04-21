@@ -5,6 +5,7 @@ sphinx-copybutton
 sphinx-book-theme
 sphinx-design
 sphinx-thebe
+sphinx-favicon
 myst-nb
 plotly
 pandas
