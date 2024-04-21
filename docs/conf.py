@@ -105,7 +105,42 @@ texinfo_documents = [
         "Miscellaneous",
     )
 ]
-
+html_theme_options = {
+    # "announcement": announcement,
+    "repository_url": "https://github.com/magpylib/magpylib-material-response",
+    "path_to_docs": "docs/",
+    "repository_branch": release,
+    "use_repository_button": True,
+    "use_download_button": True,
+    "use_source_button": True,
+    "use_edit_page_button": True,
+    "use_issues_button": True,
+    "launch_buttons": {
+        "binderhub_url": "https://mybinder.org",
+        "thebe": True,
+        "notebook_interface": "jupyterlab",
+    },
+    "icon_links": [
+        {
+            "name": "Github",
+            "url": "https://github.com/magpylib/magpylib",
+            "icon": "https://img.shields.io/github/stars/magpylib/magpylib?style=social",
+            "type": "url",
+        },
+        {
+            "name": "PyPI",
+            "url": "https://pypi.org/project/magpylib/",
+            "icon": "https://img.shields.io/pypi/v/magpylib",
+            "type": "url",
+        },
+        {
+            "name": "Conda",
+            "url": "https://anaconda.org/conda-forge/magpylib",
+            "icon": "https://img.shields.io/conda/vn/conda-forge/magpylib",
+            "type": "url",
+        },
+    ],
+}
 suppress_warnings = ["mystnb.unknown_mime_type"]
 
 html_js_files = [
